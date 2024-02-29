@@ -36,5 +36,10 @@ typedef struct levelorder_queue_s
 	struct levelorder_queue_s *next;
 } levelorder_queue_t;
 
+void binary_tree_print(const binary_tree_t *);
 
-#endif
+/* Mandatory Tasks */
+binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
+
+
+#endif /* Prepared by Happy F. Chukwuma */
